@@ -1,2 +1,5 @@
 # SE-Forum
-Software Engineering project: develop a forum
+Course: Software Engineering
+Project: Develop a Forum
+
+A project about developing a forum.
