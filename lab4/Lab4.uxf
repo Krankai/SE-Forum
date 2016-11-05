@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.2">
-  <zoom_level>6</zoom_level>
+  <zoom_level>7</zoom_level>
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>204</x>
-      <y>198</y>
-      <w>48</w>
-      <h>66</h>
+      <x>238</x>
+      <y>231</y>
+      <w>56</w>
+      <h>77</h>
     </coordinates>
     <panel_attributes>Member</panel_attributes>
     <additional_attributes/>
@@ -15,10 +15,10 @@
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>684</x>
-      <y>138</y>
-      <w>72</w>
-      <h>72</h>
+      <x>798</x>
+      <y>161</y>
+      <w>84</w>
+      <h>84</h>
     </coordinates>
     <panel_attributes>Administrator /
 Moderator</panel_attributes>
@@ -27,10 +27,10 @@ Moderator</panel_attributes>
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>210</x>
-      <y>18</y>
-      <w>36</w>
-      <h>66</h>
+      <x>245</x>
+      <y>21</y>
+      <w>42</w>
+      <h>77</h>
     </coordinates>
     <panel_attributes>Guest</panel_attributes>
     <additional_attributes/>
@@ -38,10 +38,10 @@ Moderator</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>294</x>
+      <x>343</x>
       <y>0</y>
-      <w>372</w>
-      <h>384</h>
+      <w>434</w>
+      <h>448</h>
     </coordinates>
     <panel_attributes>Forum</panel_attributes>
     <additional_attributes/>
@@ -49,10 +49,10 @@ Moderator</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>330</x>
-      <y>12</y>
-      <w>78</w>
-      <h>36</h>
+      <x>385</x>
+      <y>14</y>
+      <w>91</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>Signup</panel_attributes>
     <additional_attributes/>
@@ -60,10 +60,10 @@ Moderator</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>462</x>
-      <y>60</y>
-      <w>78</w>
-      <h>36</h>
+      <x>539</x>
+      <y>70</y>
+      <w>91</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>Login</panel_attributes>
     <additional_attributes/>
@@ -71,10 +71,10 @@ Moderator</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>414</x>
-      <y>108</y>
-      <w>78</w>
-      <h>36</h>
+      <x>483</x>
+      <y>126</y>
+      <w>91</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>Sort posts</panel_attributes>
     <additional_attributes/>
@@ -82,10 +82,10 @@ Moderator</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>498</x>
-      <y>240</y>
-      <w>78</w>
-      <h>36</h>
+      <x>581</x>
+      <y>280</y>
+      <w>91</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>Edit own posts</panel_attributes>
     <additional_attributes/>
@@ -93,10 +93,10 @@ Moderator</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>372</x>
-      <y>234</y>
-      <w>78</w>
-      <h>36</h>
+      <x>434</x>
+      <y>273</y>
+      <w>91</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>Create post</panel_attributes>
     <additional_attributes/>
@@ -104,10 +104,10 @@ Moderator</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>360</x>
-      <y>342</y>
-      <w>78</w>
-      <h>36</h>
+      <x>420</x>
+      <y>399</y>
+      <w>91</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>Post comment</panel_attributes>
     <additional_attributes/>
@@ -115,10 +115,10 @@ Moderator</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>474</x>
-      <y>342</y>
-      <w>84</w>
-      <h>36</h>
+      <x>553</x>
+      <y>399</y>
+      <w>98</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>Edit own
 comments</panel_attributes>
@@ -127,10 +127,10 @@ comments</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>486</x>
-      <y>138</y>
-      <w>78</w>
-      <h>36</h>
+      <x>567</x>
+      <y>161</y>
+      <w>91</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>Edit profile</panel_attributes>
     <additional_attributes/>
@@ -138,10 +138,10 @@ comments</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>570</x>
-      <y>186</y>
-      <w>84</w>
-      <h>48</h>
+      <x>665</x>
+      <y>217</y>
+      <w>98</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>Modify / Delete
 member's posts</panel_attributes>
@@ -150,10 +150,10 @@ member's posts</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>576</x>
-      <y>288</y>
-      <w>84</w>
-      <h>48</h>
+      <x>672</x>
+      <y>336</y>
+      <w>98</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>Modify / Delete
 member's
@@ -163,10 +163,10 @@ comments</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>426</x>
-      <y>18</y>
-      <w>78</w>
-      <h>36</h>
+      <x>497</x>
+      <y>21</y>
+      <w>91</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>Logout</panel_attributes>
     <additional_attributes/>
@@ -174,10 +174,10 @@ comments</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>444</x>
-      <y>174</y>
-      <w>78</w>
-      <h>36</h>
+      <x>518</x>
+      <y>203</y>
+      <w>91</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>Manage post</panel_attributes>
     <additional_attributes/>
@@ -185,10 +185,10 @@ comments</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>426</x>
-      <y>282</y>
-      <w>78</w>
-      <h>36</h>
+      <x>497</x>
+      <y>329</y>
+      <w>91</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>Manage
 comment</panel_attributes>
@@ -197,10 +197,10 @@ comment</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>402</x>
-      <y>204</y>
-      <w>90</w>
-      <h>42</h>
+      <x>469</x>
+      <y>238</y>
+      <w>105</w>
+      <h>49</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;include&gt;&gt;</panel_attributes>
@@ -209,10 +209,10 @@ comment</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>474</x>
-      <y>204</y>
-      <w>78</w>
-      <h>48</h>
+      <x>553</x>
+      <y>238</y>
+      <w>91</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;include&gt;&gt;</panel_attributes>
@@ -221,10 +221,10 @@ comment</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>396</x>
-      <y>312</y>
-      <w>78</w>
-      <h>42</h>
+      <x>462</x>
+      <y>364</y>
+      <w>91</w>
+      <h>49</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;include&gt;&gt;</panel_attributes>
@@ -233,10 +233,10 @@ comment</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>456</x>
-      <y>312</y>
-      <w>78</w>
-      <h>42</h>
+      <x>532</x>
+      <y>364</y>
+      <w>91</w>
+      <h>49</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;include&gt;&gt;</panel_attributes>
@@ -245,10 +245,10 @@ comment</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>558</x>
-      <y>204</y>
-      <w>60</w>
-      <h>54</h>
+      <x>651</x>
+      <y>238</y>
+      <w>70</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 &lt;&lt;extends&gt;&gt;</panel_attributes>
@@ -257,10 +257,10 @@ comment</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>528</x>
-      <y>306</y>
-      <w>60</w>
-      <h>48</h>
+      <x>616</x>
+      <y>357</y>
+      <w>70</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 &lt;&lt;extends&gt;&gt;</panel_attributes>
@@ -269,10 +269,10 @@ comment</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>240</x>
-      <y>24</y>
-      <w>102</w>
-      <h>36</h>
+      <x>280</x>
+      <y>28</y>
+      <w>119</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;40.0;150.0;10.0</additional_attributes>
@@ -280,10 +280,10 @@ comment</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>240</x>
-      <y>30</y>
-      <w>198</w>
-      <h>204</h>
+      <x>280</x>
+      <y>35</y>
+      <w>231</w>
+      <h>238</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;320.0;310.0;10.0</additional_attributes>
@@ -291,10 +291,10 @@ comment</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>240</x>
-      <y>72</y>
-      <w>234</w>
-      <h>162</h>
+      <x>280</x>
+      <y>84</y>
+      <w>273</w>
+      <h>189</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;250.0;370.0;10.0</additional_attributes>
@@ -302,10 +302,10 @@ comment</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>240</x>
-      <y>120</y>
-      <w>186</w>
-      <h>114</h>
+      <x>280</x>
+      <y>140</y>
+      <w>217</w>
+      <h>133</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;170.0;290.0;10.0</additional_attributes>
@@ -313,10 +313,10 @@ comment</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>240</x>
-      <y>150</y>
-      <w>258</w>
-      <h>84</h>
+      <x>280</x>
+      <y>175</y>
+      <w>301</w>
+      <h>98</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;120.0;410.0;10.0</additional_attributes>
@@ -324,10 +324,10 @@ comment</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>240</x>
-      <y>42</y>
-      <w>186</w>
-      <h>96</h>
+      <x>280</x>
+      <y>49</y>
+      <w>217</w>
+      <h>112</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;10.0;290.0;140.0</additional_attributes>
@@ -335,10 +335,10 @@ comment</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>240</x>
-      <y>186</y>
-      <w>216</w>
-      <h>48</h>
+      <x>280</x>
+      <y>217</y>
+      <w>252</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;60.0;340.0;10.0</additional_attributes>
@@ -346,10 +346,10 @@ comment</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>240</x>
-      <y>216</y>
-      <w>198</w>
-      <h>96</h>
+      <x>280</x>
+      <y>252</y>
+      <w>231</w>
+      <h>112</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;10.0;310.0;140.0</additional_attributes>
@@ -357,10 +357,10 @@ comment</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>498</x>
-      <y>30</y>
-      <w>216</w>
-      <h>144</h>
+      <x>581</x>
+      <y>35</y>
+      <w>252</w>
+      <h>168</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>340.0;220.0;10.0;10.0</additional_attributes>
@@ -368,10 +368,10 @@ comment</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>534</x>
-      <y>72</y>
-      <w>180</w>
-      <h>102</h>
+      <x>623</x>
+      <y>84</y>
+      <w>210</w>
+      <h>119</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>280.0;150.0;10.0;10.0</additional_attributes>
@@ -379,10 +379,10 @@ comment</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>486</x>
-      <y>120</y>
-      <w>228</w>
-      <h>54</h>
+      <x>567</x>
+      <y>140</y>
+      <w>266</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>360.0;70.0;10.0;10.0</additional_attributes>
@@ -390,10 +390,10 @@ comment</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>606</x>
-      <y>156</y>
-      <w>108</w>
-      <h>42</h>
+      <x>707</x>
+      <y>182</y>
+      <w>126</w>
+      <h>49</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>160.0;10.0;10.0;50.0</additional_attributes>
@@ -401,10 +401,10 @@ comment</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>618</x>
-      <y>156</y>
-      <w>96</w>
-      <h>144</h>
+      <x>721</x>
+      <y>182</y>
+      <w>112</w>
+      <h>168</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>140.0;10.0;10.0;220.0</additional_attributes>
@@ -412,10 +412,10 @@ comment</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>558</x>
-      <y>144</y>
-      <w>156</w>
-      <h>30</h>
+      <x>651</x>
+      <y>168</y>
+      <w>182</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>240.0;30.0;10.0;20.0</additional_attributes>
@@ -423,10 +423,10 @@ comment</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>516</x>
-      <y>156</y>
-      <w>198</w>
-      <h>48</h>
+      <x>602</x>
+      <y>182</y>
+      <w>231</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>310.0;10.0;10.0;60.0</additional_attributes>
@@ -434,10 +434,10 @@ comment</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>402</x>
-      <y>498</y>
-      <w>156</w>
-      <h>186</h>
+      <x>469</x>
+      <y>581</y>
+      <w>182</w>
+      <h>231</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 *User*
@@ -453,21 +453,22 @@ comment</panel_attributes>
 +getUsername(): String
 +getPassword(): String
 +getRole(): String
-+getOnline
++getOnline(): boolean
 +setID(id: String): void
 +setUsername(name: String): void
 +setPassword(pass: String): void
 +setRole(role: String): void
++setOnline(): void
 +editProfile(pro: Profile): void</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>618</x>
-      <y>432</y>
-      <w>228</w>
-      <h>84</h>
+      <x>721</x>
+      <y>504</y>
+      <w>266</w>
+      <h>98</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Control&gt;&gt;
 *Utilities*
@@ -483,10 +484,10 @@ deleteMemberComment(comment: Comment): void</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>552</x>
-      <y>492</y>
-      <w>78</w>
-      <h>24</h>
+      <x>644</x>
+      <y>574</y>
+      <w>91</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;use&gt;&gt;</panel_attributes>
@@ -495,10 +496,10 @@ deleteMemberComment(comment: Comment): void</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>648</x>
-      <y>678</y>
-      <w>168</w>
-      <h>102</h>
+      <x>756</x>
+      <y>791</y>
+      <w>196</w>
+      <h>119</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 *Post*
@@ -518,10 +519,10 @@ deleteMemberComment(comment: Comment): void</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>840</x>
-      <y>462</y>
-      <w>198</w>
-      <h>132</h>
+      <x>980</x>
+      <y>539</y>
+      <w>231</w>
+      <h>154</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;use&gt;&gt;</panel_attributes>
@@ -530,10 +531,10 @@ deleteMemberComment(comment: Comment): void</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>942</x>
-      <y>582</y>
-      <w>156</w>
-      <h>180</h>
+      <x>1099</x>
+      <y>679</y>
+      <w>182</w>
+      <h>210</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Abstract&gt;&gt;
 */Component/*
@@ -560,10 +561,10 @@ deleteMemberComment(comment: Comment): void</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>654</x>
-      <y>552</y>
-      <w>156</w>
-      <h>66</h>
+      <x>763</x>
+      <y>644</y>
+      <w>182</w>
+      <h>77</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 *Comment*
@@ -578,10 +579,10 @@ deleteMemberComment(comment: Comment): void</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>804</x>
-      <y>576</y>
-      <w>150</w>
-      <h>84</h>
+      <x>938</x>
+      <y>672</y>
+      <w>175</w>
+      <h>98</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>230.0;120.0;10.0;10.0</additional_attributes>
@@ -589,21 +590,21 @@ deleteMemberComment(comment: Comment): void</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>810</x>
-      <y>666</y>
-      <w>144</w>
-      <h>60</h>
+      <x>945</x>
+      <y>784</y>
+      <w>168</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>220.0;10.0;10.0;80.0</additional_attributes>
+    <additional_attributes>220.0;10.0;10.0;70.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>648</x>
-      <y>834</y>
-      <w>168</w>
-      <h>90</h>
+      <x>756</x>
+      <y>973</y>
+      <w>196</w>
+      <h>105</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 *Thread*
@@ -620,10 +621,10 @@ deleteMemberComment(comment: Comment): void</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>810</x>
-      <y>702</y>
-      <w>144</w>
-      <h>186</h>
+      <x>945</x>
+      <y>819</y>
+      <w>168</w>
+      <h>217</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>220.0;10.0;10.0;290.0</additional_attributes>
@@ -631,10 +632,10 @@ deleteMemberComment(comment: Comment): void</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>180</x>
-      <y>636</y>
-      <w>126</w>
-      <h>90</h>
+      <x>210</x>
+      <y>742</y>
+      <w>147</w>
+      <h>105</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Control&gt;&gt;
 *SignUp*
@@ -650,10 +651,10 @@ deleteMemberComment(comment: Comment): void</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>180</x>
-      <y>432</y>
-      <w>126</w>
-      <h>66</h>
+      <x>210</x>
+      <y>504</y>
+      <w>147</w>
+      <h>77</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Control&gt;&gt;
 *Login*
@@ -668,9 +669,9 @@ deleteMemberComment(comment: Comment): void</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>0</x>
-      <y>480</y>
-      <w>126</w>
-      <h>60</h>
+      <y>560</y>
+      <w>147</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Boundary&gt;&gt;
 *HomePage*
@@ -683,10 +684,10 @@ deleteMemberComment(comment: Comment): void</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>6</x>
-      <y>642</y>
-      <w>126</w>
-      <h>60</h>
+      <x>7</x>
+      <y>749</y>
+      <w>147</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Boundary&gt;&gt;
 *UserSignUpForm*
@@ -699,10 +700,10 @@ deleteMemberComment(comment: Comment): void</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>180</x>
-      <y>528</y>
-      <w>126</w>
-      <h>66</h>
+      <x>210</x>
+      <y>616</y>
+      <w>147</w>
+      <h>77</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Control&gt;&gt;
 *LogOut*
@@ -715,10 +716,10 @@ deleteMemberComment(comment: Comment): void</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>120</x>
-      <y>510</y>
-      <w>72</w>
-      <h>66</h>
+      <x>140</x>
+      <y>595</y>
+      <w>84</w>
+      <h>77</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>100.0;90.0;10.0;10.0</additional_attributes>
@@ -726,10 +727,10 @@ deleteMemberComment(comment: Comment): void</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>120</x>
-      <y>462</y>
-      <w>72</w>
-      <h>66</h>
+      <x>140</x>
+      <y>539</y>
+      <w>84</w>
+      <h>77</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>100.0;10.0;10.0;90.0</additional_attributes>
@@ -737,10 +738,10 @@ deleteMemberComment(comment: Comment): void</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>126</x>
-      <y>672</y>
-      <w>66</w>
-      <h>18</h>
+      <x>147</x>
+      <y>784</y>
+      <w>77</w>
+      <h>21</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
@@ -748,10 +749,10 @@ deleteMemberComment(comment: Comment): void</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>300</x>
-      <y>456</y>
-      <w>114</w>
-      <h>132</h>
+      <x>350</x>
+      <y>532</y>
+      <w>133</w>
+      <h>154</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;manage&gt;&gt;</panel_attributes>
@@ -760,10 +761,10 @@ deleteMemberComment(comment: Comment): void</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>300</x>
-      <y>570</y>
-      <w>114</w>
-      <h>120</h>
+      <x>350</x>
+      <y>665</y>
+      <w>133</w>
+      <h>140</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;manage&gt;&gt;</panel_attributes>
@@ -772,10 +773,10 @@ deleteMemberComment(comment: Comment): void</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>726</x>
-      <y>612</y>
-      <w>30</w>
-      <h>78</h>
+      <x>847</x>
+      <y>714</y>
+      <w>35</w>
+      <h>91</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m2=0..n</panel_attributes>
@@ -784,10 +785,10 @@ m2=0..n</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>726</x>
-      <y>774</y>
-      <w>30</w>
-      <h>72</h>
+      <x>847</x>
+      <y>903</y>
+      <w>35</w>
+      <h>84</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m2=0..n</panel_attributes>
@@ -796,25 +797,25 @@ m2=0..n</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>552</x>
-      <y>570</y>
-      <w>114</w>
-      <h>48</h>
+      <x>644</x>
+      <y>665</y>
+      <w>133</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-m2=0..n</panel_attributes>
-    <additional_attributes>10.0;60.0;170.0;10.0</additional_attributes>
+m2=0..1</panel_attributes>
+    <additional_attributes>10.0;80.0;170.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>552</x>
-      <y>642</y>
-      <w>108</w>
-      <h>96</h>
+      <x>644</x>
+      <y>749</y>
+      <w>126</w>
+      <h>112</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-m2=0..n</panel_attributes>
+m2=0..1</panel_attributes>
     <additional_attributes>10.0;10.0;160.0;140.0</additional_attributes>
   </element>
 </diagram>
