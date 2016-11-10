@@ -824,4 +824,28 @@ m1=1
 m2=*</panel_attributes>
     <additional_attributes>10.0;10.0;160.0;140.0</additional_attributes>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>434</x>
+      <y>861</y>
+      <w>182</w>
+      <h>154</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+*System Owner*
+--
+-userID: String
+-username: String
+-password: String
+--
++User()
++getID(): String
++getUsername(): String
++getPassword(): String
++setID(id: String): void
++setUsername(name: String): void
++setPassword(pass: String): void</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>
