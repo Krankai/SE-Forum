@@ -138,7 +138,7 @@ comments</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>665</x>
+      <x>679</x>
       <y>217</y>
       <w>98</w>
       <h>56</h>
@@ -245,14 +245,14 @@ comment</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>651</x>
-      <y>238</y>
-      <w>70</w>
-      <h>63</h>
+      <x>637</x>
+      <y>252</y>
+      <w>63</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 &lt;&lt;extends&gt;&gt;</panel_attributes>
-    <additional_attributes>20.0;10.0;10.0;70.0</additional_attributes>
+    <additional_attributes>70.0;10.0;10.0;40.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -390,13 +390,13 @@ comment</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>707</x>
+      <x>721</x>
       <y>182</y>
-      <w>126</w>
+      <w>112</w>
       <h>49</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>160.0;10.0;10.0;50.0</additional_attributes>
+    <additional_attributes>140.0;10.0;10.0;50.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -465,10 +465,10 @@ comment</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>721</x>
-      <y>504</y>
+      <x>742</x>
+      <y>490</y>
       <w>266</w>
-      <h>98</h>
+      <h>126</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Control&gt;&gt;
 *Utilities*
@@ -478,20 +478,22 @@ comment</panel_attributes>
 createPost(desc: String): Post
 postComment(desc: String): Comment
 deleteMemberPost(post: Post): void
-deleteMemberComment(comment: Comment): void</panel_attributes>
+deleteMemberComment(comment: Comment): void
+sortPost(): void
+authorizeUser(userRole: String): boolean</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>644</x>
-      <y>574</y>
-      <w>91</w>
-      <h>28</h>
+      <y>567</y>
+      <w>112</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;use&gt;&gt;</panel_attributes>
-    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>140.0;10.0;10.0;30.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -505,7 +507,7 @@ deleteMemberComment(comment: Comment): void</panel_attributes>
 *Post*
 --
 -title: String
--comments: ArrayList&lt;Comment&gt;
+-comments: List&lt;Comment&gt;
 // tag for searching function
 // rate
 --
@@ -519,14 +521,14 @@ deleteMemberComment(comment: Comment): void</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>980</x>
-      <y>539</y>
-      <w>231</w>
-      <h>154</h>
+      <x>1001</x>
+      <y>525</y>
+      <w>210</w>
+      <h>168</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;use&gt;&gt;</panel_attributes>
-    <additional_attributes>310.0;200.0;10.0;10.0</additional_attributes>
+    <additional_attributes>280.0;220.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -541,14 +543,14 @@ deleteMemberComment(comment: Comment): void</panel_attributes>
 --
 -index: int
 -description: String
--author: Member
+-ownerID: String
 -createdDate: Date
 -lastModified: Date
 // tag for searching; rate
 --
 +getIndex(): int
 +getDesc(): String
-+getAuthor(): Member
++getOwnerID(): String
 +getCreatedDate(): Date
 +getLastModified(): Date
 +setIndex(index: int): void
@@ -604,13 +606,13 @@ deleteMemberComment(comment: Comment): void</panel_attributes>
       <x>756</x>
       <y>973</y>
       <w>196</w>
-      <h>105</h>
+      <h>112</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 *Thread*
 --
 -title: String
--post: ArrayList&lt;Post&gt;
+-post: List&lt;Post&gt;
 --
 +getTitle(): String
 +setTitle(title: String): void
@@ -634,7 +636,7 @@ deleteMemberComment(comment: Comment): void</panel_attributes>
     <coordinates>
       <x>210</x>
       <y>742</y>
-      <w>147</w>
+      <w>168</w>
       <h>105</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Control&gt;&gt;
@@ -653,7 +655,7 @@ deleteMemberComment(comment: Comment): void</panel_attributes>
     <coordinates>
       <x>210</x>
       <y>504</y>
-      <w>147</w>
+      <w>161</w>
       <h>77</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Control&gt;&gt;
@@ -749,26 +751,26 @@ deleteMemberComment(comment: Comment): void</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>350</x>
+      <x>364</x>
       <y>532</y>
-      <w>133</w>
+      <w>119</w>
       <h>154</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;manage&gt;&gt;</panel_attributes>
-    <additional_attributes>170.0;200.0;10.0;10.0</additional_attributes>
+    <additional_attributes>150.0;200.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>350</x>
+      <x>371</x>
       <y>665</y>
-      <w>133</w>
+      <w>119</w>
       <h>140</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;manage&gt;&gt;</panel_attributes>
-    <additional_attributes>170.0;10.0;10.0;180.0</additional_attributes>
+    <additional_attributes>140.0;10.0;10.0;180.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -779,7 +781,8 @@ deleteMemberComment(comment: Comment): void</panel_attributes>
       <h>91</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
-m2=0..n</panel_attributes>
+m1=1
+m2=0..*</panel_attributes>
     <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
   </element>
   <element>
@@ -791,7 +794,8 @@ m2=0..n</panel_attributes>
       <h>84</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
-m2=0..n</panel_attributes>
+m1=1
+m2=0..*</panel_attributes>
     <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
   </element>
   <element>
@@ -800,22 +804,26 @@ m2=0..n</panel_attributes>
       <x>644</x>
       <y>665</y>
       <w>133</w>
-      <h>70</h>
+      <h>35</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-m2=0..1</panel_attributes>
-    <additional_attributes>10.0;80.0;170.0;10.0</additional_attributes>
+&lt;&lt;inclue&gt;&gt;
+m1=*
+m2=1</panel_attributes>
+    <additional_attributes>170.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>644</x>
-      <y>749</y>
+      <y>763</y>
       <w>126</w>
-      <h>112</h>
+      <h>98</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-m2=0..1</panel_attributes>
-    <additional_attributes>10.0;10.0;160.0;140.0</additional_attributes>
+&lt;&lt;include&gt;&gt;
+m1=*
+m2=1</panel_attributes>
+    <additional_attributes>160.0;120.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>
