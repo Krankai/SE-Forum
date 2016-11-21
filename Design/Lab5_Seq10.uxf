@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>6</zoom_level>
+  <element>
+    <id>UMLSequenceAllInOne</id>
+    <coordinates>
+      <x>54</x>
+      <y>24</y>
+      <w>834</w>
+      <h>648</h>
+    </coordinates>
+    <panel_attributes>title=User Story 10;
+obj=Admin/Moderator~a ACTOR EXECUTION
+obj=:UI Thread~b EXECUTION
+obj=:Utilities~c EXECUTION
+obj=:Post~d EXECUTION
+obj=:Thread~e EXECUTION
+
+off=b; off=c; off=d; off=e;
+
+on=b;
+a-&gt;&gt;&gt;b: 1. Delete a member's post;
+on=c;
+b-&gt;&gt;&gt;c: 2. Forward request;
+c-&gt;c +: 3. Authorize user
+combinedFragment=alt~alt1 a e;
+c: [authorized user];
+on=d;
+c-&gt;&gt;&gt;d: 4. Delete post;
+d.&gt;c: 5. Send notification;
+off=d;
+on=e;
+c-&gt;&gt;&gt;e: 6. Remove post from thread;
+e.&gt;c: 7. Send notification;
+off=e;
+c.&gt;b: 8. Return successful notification;
+b.&gt;a: 9. Display notification;
+..=alt1;
+c: [unauthorized user]
+c.&gt;b: 4. Send error message;
+off=c;
+b.&gt;a: 5. Display error message;
+off=b;
+off=a;
+--
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

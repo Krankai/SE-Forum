@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>7</zoom_level>
+  <element>
+    <id>UMLSequenceAllInOne</id>
+    <coordinates>
+      <x>245</x>
+      <y>42</y>
+      <w>455</w>
+      <h>658</h>
+    </coordinates>
+    <panel_attributes>title=Sort post
+title=User Story 2
+obj=User~a ACTOR EXECUTION
+obj=Homepage\nBoundary class~b ACTIVE EXECUTION
+obj=Utilities\nControl class~c ACTIVE EXECUTION
+obj=Post\nEntity class~d ACTIVE EXECUTION
+
+off=b; off=c; off=d;
+on=b;
+a-&gt;&gt;&gt;b : 1. Choose the way to sort post;
+on=c;
+b-&gt;&gt;&gt;c : 2. Transfer input;
+on=d;
+c-&gt;&gt;&gt;d : 3. Get post's information;
+d.&gt;c : 4. Return post's information;
+off=d;
+c.&gt;b : 5. Return new post order;
+off=c;
+b.&gt;a : 6. Display new post order; 
+off=b;
+off=a;
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

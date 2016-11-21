@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLSequenceAllInOne</id>
+    <coordinates>
+      <x>120</x>
+      <y>0</y>
+      <w>712</w>
+      <h>1008</h>
+    </coordinates>
+    <panel_attributes>title=User Story 9
+obj=Admin/Moderator~a ACTOR EXECUTION
+obj=:UI Post~b EXECUTION
+obj=:Utilities~c EXECUTION
+obj=:Comment~d EXECUTION
+obj=:Post~e EXECUTION
+
+off=b,c,d,e;
+
+on=b;
+a-&gt;&gt;&gt;b: 1. Link to comment directory;
+b.&gt;a: 2. Display comment;
+off=b;
+
+on=b;
+a-&gt;&gt;&gt;b: 3. Send delete comment request;
+on=c;
+b-&gt;&gt;&gt;c: 4. Forward request;
+on=d;
+c-&gt;&gt;&gt;d: 5. Delete comment;
+d.&gt;c: 6. Send successful notification;
+off=d;
+on=e;
+c-&gt;&gt;&gt;e: 7. Remove comment from current post;
+e.&gt;c: 8. Send successful notification;
+off=e;
+c.&gt;b: 9. Return successful notification;
+off=c;
+b.&gt;a: 10. Display notification;
+off=b;
+off=a;</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

@@ -437,7 +437,7 @@ comment</panel_attributes>
       <x>469</x>
       <y>581</y>
       <w>182</w>
-      <h>231</h>
+      <h>203</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 *User*
@@ -446,19 +446,19 @@ comment</panel_attributes>
 -username: String
 -password: String
 -role: String
--online: boolean
+// -online: boolean
 --
 +User()
 +getID(): String
-+getUsername(): String
-+getPassword(): String
-+getRole(): String
-+getOnline(): boolean
 +setID(id: String): void
++getUsername(): String
 +setUsername(name: String): void
++getPassword(): String
 +setPassword(pass: String): void
++getRole(): String
 +setRole(role: String): void
-+setOnline(): void
+// +getOnline(): boolean
+// +setOnline(): void
 +editProfile(pro: Profile): void</panel_attributes>
     <additional_attributes/>
   </element>
@@ -549,15 +549,19 @@ authorizeUser(userRole: String): boolean</panel_attributes>
 // tag for searching; rate
 --
 +getIndex(): int
-+getDesc(): String
-+getOwnerID(): String
-+getCreatedDate(): Date
-+getLastModified(): Date
 +setIndex(index: int): void
++getDesc(): String
 +setDesc(desc: String): void
-+setAuthor(author: Member): void
++getOwnerID(): String
++setOwnerID(ownerID: String): void
++getCreatedDate(): Date
 +setCreatedDate(date: Date): void
-+setLastModified(date: Date): void</panel_attributes>
++getLastModified(): Date
++setLastModified(date: Date): void
+
+
+
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -712,7 +716,8 @@ authorizeUser(userRole: String): boolean</panel_attributes>
 --
 
 --
-+setOffline(): boolean</panel_attributes>
+// +setOnline(): boolean
+// +setOffline(): boolean</panel_attributes>
     <additional_attributes/>
   </element>
   <element>

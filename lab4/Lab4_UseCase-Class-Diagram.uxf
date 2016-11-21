@@ -437,7 +437,7 @@ comment</panel_attributes>
       <x>469</x>
       <y>581</y>
       <w>182</w>
-      <h>231</h>
+      <h>203</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 *User*
@@ -446,29 +446,29 @@ comment</panel_attributes>
 -username: String
 -password: String
 -role: String
--online: boolean
+// -online: boolean
 --
 +User()
 +getID(): String
-+getUsername(): String
-+getPassword(): String
-+getRole(): String
-+getOnline(): boolean
 +setID(id: String): void
++getUsername(): String
 +setUsername(name: String): void
++getPassword(): String
 +setPassword(pass: String): void
++getRole(): String
 +setRole(role: String): void
-+setOnline(): void
+// +getOnline(): boolean
+// +setOnline(): void
 +editProfile(pro: Profile): void</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>721</x>
-      <y>504</y>
+      <x>742</x>
+      <y>490</y>
       <w>266</w>
-      <h>98</h>
+      <h>126</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Control&gt;&gt;
 *Utilities*
@@ -478,20 +478,22 @@ comment</panel_attributes>
 createPost(desc: String): Post
 postComment(desc: String): Comment
 deleteMemberPost(post: Post): void
-deleteMemberComment(comment: Comment): void</panel_attributes>
+deleteMemberComment(comment: Comment): void
+sortPost(): void
+authorizeUser(userRole: String): boolean</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>644</x>
-      <y>574</y>
-      <w>91</w>
-      <h>28</h>
+      <y>567</y>
+      <w>112</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;use&gt;&gt;</panel_attributes>
-    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>140.0;10.0;10.0;30.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -505,7 +507,7 @@ deleteMemberComment(comment: Comment): void</panel_attributes>
 *Post*
 --
 -title: String
--comments: ArrayList&lt;Comment&gt;
+-comments: List&lt;Comment&gt;
 // tag for searching function
 // rate
 --
@@ -519,14 +521,14 @@ deleteMemberComment(comment: Comment): void</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>980</x>
-      <y>539</y>
-      <w>231</w>
-      <h>154</h>
+      <x>1001</x>
+      <y>525</y>
+      <w>210</w>
+      <h>168</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;use&gt;&gt;</panel_attributes>
-    <additional_attributes>310.0;200.0;10.0;10.0</additional_attributes>
+    <additional_attributes>280.0;220.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -541,21 +543,25 @@ deleteMemberComment(comment: Comment): void</panel_attributes>
 --
 -index: int
 -description: String
--author: Member
+-ownerID: String
 -createdDate: Date
 -lastModified: Date
 // tag for searching; rate
 --
 +getIndex(): int
-+getDesc(): String
-+getAuthor(): Member
-+getCreatedDate(): Date
-+getLastModified(): Date
 +setIndex(index: int): void
++getDesc(): String
 +setDesc(desc: String): void
-+setAuthor(author: Member): void
++getOwnerID(): String
++setOwnerID(ownerID: String): void
++getCreatedDate(): Date
 +setCreatedDate(date: Date): void
-+setLastModified(date: Date): void</panel_attributes>
++getLastModified(): Date
++setLastModified(date: Date): void
+
+
+
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -604,13 +610,13 @@ deleteMemberComment(comment: Comment): void</panel_attributes>
       <x>756</x>
       <y>973</y>
       <w>196</w>
-      <h>105</h>
+      <h>112</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 *Thread*
 --
 -title: String
--post: ArrayList&lt;Post&gt;
+-post: List&lt;Post&gt;
 --
 +getTitle(): String
 +setTitle(title: String): void
@@ -710,7 +716,8 @@ deleteMemberComment(comment: Comment): void</panel_attributes>
 --
 
 --
-+setOffline(): boolean</panel_attributes>
+// +setOnline(): boolean
+// +setOffline(): boolean</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -763,7 +770,7 @@ deleteMemberComment(comment: Comment): void</panel_attributes>
     <coordinates>
       <x>371</x>
       <y>665</y>
-      <w>112</w>
+      <w>119</w>
       <h>140</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
@@ -802,50 +809,26 @@ m2=0..*</panel_attributes>
       <x>644</x>
       <y>665</y>
       <w>133</w>
-      <h>70</h>
+      <h>35</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 &lt;&lt;inclue&gt;&gt;
-m1=1
-m2=*</panel_attributes>
-    <additional_attributes>10.0;80.0;170.0;10.0</additional_attributes>
+m1=*
+m2=1</panel_attributes>
+    <additional_attributes>170.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>644</x>
-      <y>749</y>
+      <y>763</y>
       <w>126</w>
-      <h>112</h>
+      <h>98</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 &lt;&lt;include&gt;&gt;
-m1=1
-m2=*</panel_attributes>
-    <additional_attributes>10.0;10.0;160.0;140.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>434</x>
-      <y>861</y>
-      <w>182</w>
-      <h>154</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;Entity&gt;&gt;
-*System Owner*
---
--userID: String
--username: String
--password: String
---
-+User()
-+getID(): String
-+getUsername(): String
-+getPassword(): String
-+setID(id: String): void
-+setUsername(name: String): void
-+setPassword(pass: String): void</panel_attributes>
-    <additional_attributes/>
+m1=*
+m2=1</panel_attributes>
+    <additional_attributes>160.0;120.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>7</zoom_level>
+  <element>
+    <id>UMLSequenceAllInOne</id>
+    <coordinates>
+      <x>0</x>
+      <y>0</y>
+      <w>924</w>
+      <h>1022</h>
+    </coordinates>
+    <panel_attributes>title=User Story 4
+obj=User~a ACTOR EXECUTION
+obj=:User Interface Thread~b EXECUTION
+obj=:Utilities~c EXECUTION
+obj=:User~d EXECUTION
+obj=:Post~e EXECUTION
+obj=:Thread~f EXECUTION
+
+off=b,c,d,e,f
+on=b
+a-&gt;&gt;&gt;b: 1. Send signal to create a post
+on=c
+b-&gt;&gt;&gt;c: 2. Call Create Post function
+c.&gt;b: 3. Request description for post
+off=c
+b.&gt;a: 4. Prompt for description
+off=b
+
+on=b
+a-&gt;&gt;&gt;b: 5. Enter description
+on=c
+b-&gt;&gt;&gt;c: 6. Forward description
+on=d
+c-&gt;&gt;&gt;d: 7. Request user ID
+d.&gt;c: 8. Return user ID
+off=d
+on=e
+c-&gt;&gt;&gt;e: 9. Create new Post object
+e.&gt;c: 10. Return new Post object
+off=e
+on=f
+c-&gt;&gt;&gt;f: 11. Request current Thread object
+f.&gt;c: 12. Return current Thread object
+off=f
+c-&gt;c +: 13. Add post to thread
+c.&gt;b: 14. Return the created post
+off=c
+b.&gt;a: 15. Display the created post
+off=b
+off=a</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

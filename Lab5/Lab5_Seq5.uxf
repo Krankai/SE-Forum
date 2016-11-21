@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>7</zoom_level>
+  <element>
+    <id>UMLSequenceAllInOne</id>
+    <coordinates>
+      <x>21</x>
+      <y>0</y>
+      <w>889</w>
+      <h>826</h>
+    </coordinates>
+    <panel_attributes>title=User Story 5
+obj=User~a ACTOR EXECUTION
+obj=:User Interface Post~b  EXECUTION
+obj=:Post~c EXECUTION
+obj=:User~d EXECUTION
+
+off=b,c,d;
+
+on=b;
+a-&gt;&gt;&gt;b: 1.  Send signal to edit a post;
+on=c;
+b-&gt;&gt;&gt;c: 2. Call Edit Post function;
+on=d;
+c-&gt;&gt;&gt;d: 3. Request user ID;
+d.&gt;c: 4. Return user ID;
+off=d;
+c-&gt;c +: 5. Validate user
+
+combinedFragment=alt~alt1 a d;
+c: [not post owner];
+c.&gt;b: 6. Return warning message;
+b.&gt;a: 7. Display warning message;
+..=alt1;
+c: [post owner]
+c.&gt;b: 6. Request new description;
+off=c;
+b.&gt;a: 7. Prompt for new description;
+off=b;
+on=b;
+a-&gt;&gt;&gt;b: 8. Enter new description;
+on=c;
+b-&gt;&gt;&gt;c: 9. Forward new description;
+c-&gt;c +: 10. Perform modification;
+c.&gt;b: 11. Return the modified Post object;
+off=c;
+b.&gt;a: 12. Display the modified post;
+off=b;
+off=a;
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

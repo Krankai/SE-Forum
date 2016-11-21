@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLSequenceAllInOne</id>
+    <coordinates>
+      <x>112</x>
+      <y>0</y>
+      <w>592</w>
+      <h>1120</h>
+    </coordinates>
+    <panel_attributes>title=As a member / moderator / administrator, I want to edit my own comments.
+title=User Story 7
+obj=User~a ACTOR EXECUTION
+obj=:Post Interface Class~b ACTIVE EXECUTION
+obj=:Ultilities Class~c EXECUTION
+obj=:User\n Class~d EXECUTION
+obj=:Comment Class~e EXECUTION
+
+off=c; off=d; off=e; off=b;
+
+on=b;
+a-&gt;&gt;&gt;b : 1.Request editing;
+on=c;
+b-&gt;&gt;&gt;c : 2.Transfer request;
+on=d;
+c-&gt;&gt;&gt;d : 3.Request UserID;
+d.&gt;c : 4.Return UserID;
+off=d;
+c.&gt;b : 5.Check matched UserID;
+off=c;
+b.&gt;a : 6.Display comment in textbox;
+a-&gt;&gt;&gt;b : 7.Edit comment;
+on=c;
+b-&gt;&gt;&gt;c : 8.Transfer comment;
+on=e;
+c-&gt;&gt;&gt;e : 9.Modify Comment;
+e.&gt;c : 10.Return modified Comment;
+off=e;
+c.&gt;b : 11.Retrieve modified comment;
+off=c;
+b.&gt;a : 12.Display comment in block;
+off=b;
+off=a;
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

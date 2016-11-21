@@ -1,0 +1,6 @@
+Pre-conditions:
+	Include 'The product/... exists in the database, and allows ...'
+		'User must log in ...'
+
+Use Case description:
+	Include 'Alternate course' (condition that something unexpected happens)
