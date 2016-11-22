@@ -7,7 +7,7 @@
       <x>21</x>
       <y>0</y>
       <w>889</w>
-      <h>826</h>
+      <h>903</h>
     </coordinates>
     <panel_attributes>title=User Story 5
 obj=User~a ACTOR EXECUTION
@@ -20,31 +20,33 @@ off=b,c,d;
 on=b;
 a-&gt;&gt;&gt;b: 1.  Send signal to edit a post;
 on=c;
-b-&gt;&gt;&gt;c: 2. Call Edit Post function;
+b-&gt;&gt;&gt;c: 2. Request the desired post from database;
+c.&gt;b: 3. Return the desired post;
+b-&gt;&gt;&gt;c: 4. Call Edit Post function;
 on=d;
-c-&gt;&gt;&gt;d: 3. Request user ID;
-d.&gt;c: 4. Return user ID;
+c-&gt;&gt;&gt;d: 5. Request user ID;
+d.&gt;c: 6. Return user ID;
 off=d;
-c-&gt;c +: 5. Validate user
+c-&gt;c +: 7. Validate user
 
 combinedFragment=alt~alt1 a d;
 c: [not post owner];
-c.&gt;b: 6. Return warning message;
-b.&gt;a: 7. Display warning message;
+c.&gt;b: 8. Return warning message;
+b.&gt;a: 9. Display warning message;
 ..=alt1;
 c: [post owner]
-c.&gt;b: 6. Request new description;
+c.&gt;b: 8. Request new description;
 off=c;
-b.&gt;a: 7. Prompt for new description;
+b.&gt;a: 9. Prompt for new description;
 off=b;
 on=b;
-a-&gt;&gt;&gt;b: 8. Enter new description;
+a-&gt;&gt;&gt;b: 10. Enter new description;
 on=c;
-b-&gt;&gt;&gt;c: 9. Forward new description;
-c-&gt;c +: 10. Perform modification;
-c.&gt;b: 11. Return the modified Post object;
+b-&gt;&gt;&gt;c: 11. Forward new description;
+c-&gt;c +: 12. Perform modification;
+c.&gt;b: 13. Return the modified Post object;
 off=c;
-b.&gt;a: 12. Display the modified post;
+b.&gt;a: 14. Display the modified post;
 off=b;
 off=a;
 --</panel_attributes>
