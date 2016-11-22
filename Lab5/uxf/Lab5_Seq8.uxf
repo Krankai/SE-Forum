@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>6</zoom_level>
+  <element>
+    <id>UMLSequenceAllInOne</id>
+    <coordinates>
+      <x>222</x>
+      <y>0</y>
+      <w>426</w>
+      <h>780</h>
+    </coordinates>
+    <panel_attributes>title=User Story 8
+obj=User~a ACTOR EXECUTION
+obj=:UI Profile~b EXECUTION
+obj=:User~c EXECUTION
+
+off=b; off=c;
+on=b;
+a-&gt;&gt;&gt;b: 1. Edit profile;
+on=c;
+b-&gt;&gt;&gt;c: 2. Request current User object;
+c.&gt;b: 3. Return current User object;
+off=c;
+on=c;
+b-&gt;&gt;&gt;c: 4. Call Edit Profile function;
+c.&gt;b: 5. Request new information;
+off=c;
+b.&gt;a: 6. Prompt for new information;
+off=b;
+on=b;
+a-&gt;&gt;&gt;b: 7. Enter new information;
+on=c;
+b-&gt;&gt;&gt;c: 8. Forward new information;
+c-&gt;c +: 9. Update user's profile;
+tick=
+c.&gt;b: 10. Return successful message;
+off=c;
+b.&gt;a: 11. Display successful message;
+off=b;
+off=a;
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

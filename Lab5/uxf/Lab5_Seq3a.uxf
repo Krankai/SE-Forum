@@ -7,7 +7,7 @@
       <x>77</x>
       <y>0</y>
       <w>735</w>
-      <h>980</h>
+      <h>1050</h>
     </coordinates>
     <panel_attributes>title=User Story 3
 obj=User~a ACTOR EXECUTION
@@ -35,6 +35,7 @@ c-&gt;&gt;&gt;d: 7. Get user database;
 d.&gt;c: 8. Return list of users;
 off=d;
 c-&gt;c +: 9. Validate user;
+tick=
 combinedFragment=alt~alt1 a d;
 c: [invalid username or password];
 c.&gt;b: 10. Send error message;
@@ -42,6 +43,7 @@ b.&gt;a: 11. Display error message;
 ..=alt1;
 c: [valid username and password];
 c-&gt;c +: 10. Store user in current session;
+tick=
 c.&gt;b: 11. Return successful message;
 off=c;
 b.&gt;a: 12. Display successful message;

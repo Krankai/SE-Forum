@@ -7,7 +7,7 @@
       <x>54</x>
       <y>24</y>
       <w>834</w>
-      <h>648</h>
+      <h>666</h>
     </coordinates>
     <panel_attributes>title=User Story 10;
 obj=Admin/Moderator~a ACTOR EXECUTION
@@ -23,6 +23,7 @@ a-&gt;&gt;&gt;b: 1. Delete a member's post;
 on=c;
 b-&gt;&gt;&gt;c: 2. Forward request;
 c-&gt;c +: 3. Authorize user
+tick=
 combinedFragment=alt~alt1 a e;
 c: [authorized user];
 on=d;

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLSequenceAllInOne</id>
+    <coordinates>
+      <x>20</x>
+      <y>0</y>
+      <w>780</w>
+      <h>830</h>
+    </coordinates>
+    <panel_attributes>title=User Story 3
+obj=User~a ACTOR EXECUTION
+obj=:User Interface~b EXECUTION
+obj=:Log out~c EXECUTION
+
+off=b; off=c;
+on=b;
+a-&gt;&gt;&gt;b: 1. Log out;
+on=c;
+b-&gt;&gt;&gt;c: 2. Call Logout function;
+c-&gt;c +: 3. Close all activities;
+tick=
+c-&gt;c +: 4. Remove User object from session;
+tick=
+c.&gt;b: 5. Return completion signal;
+off=c;
+b.&gt;a: 6. Redirect to Login page;
+off=b;
+off=a;</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

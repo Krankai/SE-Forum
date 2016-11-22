@@ -7,7 +7,7 @@
       <x>0</x>
       <y>0</y>
       <w>924</w>
-      <h>1022</h>
+      <h>1071</h>
     </coordinates>
     <panel_attributes>title=User Story 4
 obj=User~a ACTOR EXECUTION
@@ -44,6 +44,7 @@ c-&gt;&gt;&gt;f: 11. Request current Thread object
 f.&gt;c: 12. Return current Thread object
 off=f
 c-&gt;c +: 13. Add post to thread
+tick=
 c.&gt;b: 14. Return the created post
 off=c
 b.&gt;a: 15. Display the created post
