@@ -4,10 +4,10 @@
   <element>
     <id>UMLSequenceAllInOne</id>
     <coordinates>
-      <x>112</x>
+      <x>24</x>
       <y>0</y>
-      <w>592</w>
-      <h>1120</h>
+      <w>992</w>
+      <h>1048</h>
     </coordinates>
     <panel_attributes>title=As a member / moderator / administrator, I want to edit my own comments.
 title=User Story 7
@@ -27,22 +27,29 @@ on=d;
 c-&gt;&gt;&gt;d : 3.Request UserID;
 d.&gt;c : 4.Return UserID;
 off=d;
-c.&gt;b : 5.Check matched UserID;
-off=c;
-b.&gt;a : 6.Display comment in textbox;
-a-&gt;&gt;&gt;b : 7.Edit comment;
-on=c;
-b-&gt;&gt;&gt;c : 8.Transfer comment;
+c.&gt;c + : 5.Check matched UserID;
+tick=
+combinedFragment=alt~alt1 a e;
+c: [Unmatched UserID];
+c.&gt;b : 6.Send error message;
+b.&gt;a : 7.Display error message;
+..=alt1;
+c: [Matched UserID];
+c.&gt;b : 6.Send message to edit;
+b.&gt;a : 7.Display comment in textbox;
+tick=
+a-&gt;&gt;&gt;b : 8.Edit comment;
+b-&gt;&gt;&gt;c : 9.Transfer comment;
 on=e;
-c-&gt;&gt;&gt;e : 9.Modify Comment;
-e.&gt;c : 10.Return modified Comment;
+c-&gt;&gt;&gt;e : 10.Modify Comment;
+e.&gt;c : 11.Return modified Comment;
 off=e;
-c.&gt;b : 11.Retrieve modified comment;
+c.&gt;b : 12.Retrieve modified comment;
 off=c;
-b.&gt;a : 12.Display comment in block;
+b.&gt;a : 13.Display comment in block;
 off=b;
 off=a;
-
+--
 </panel_attributes>
     <additional_attributes/>
   </element>

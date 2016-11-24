@@ -6,8 +6,8 @@
     <coordinates>
       <x>77</x>
       <y>0</y>
-      <w>735</w>
-      <h>1050</h>
+      <w>693</w>
+      <h>1043</h>
     </coordinates>
     <panel_attributes>title=User Story 3
 obj=User~a ACTOR EXECUTION
