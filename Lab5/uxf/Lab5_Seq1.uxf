@@ -4,32 +4,44 @@
   <element>
     <id>UMLSequenceAllInOne</id>
     <coordinates>
-      <x>119</x>
-      <y>56</y>
-      <w>553</w>
-      <h>567</h>
+      <x>77</x>
+      <y>0</y>
+      <w>735</w>
+      <h>742</h>
     </coordinates>
     <panel_attributes>title=Sign up sequence diagram
-title=User Story 1
 obj=Guest~a ACTOR EXECUTION
-obj=SignUpForm \n Boundary Class~b ACTIVE EXECUTION
-obj=SignUp \n Control Class~c ACTIVE EXECUTION
-obj=User \n Entity Class~d ACTIVE EXECUTION
-
-off=b; off=d; off=c;
-on=b;
+obj=:SignUpForm \n Boundary Class~b ACTIVE EXECUTION
+obj=:SignUp \n Control Class~c ACTIVE EXECUTION
+obj=:User \n Entity Class~d ACTIVE EXECUTION
+off=d; off=c;
 a-&gt;&gt;&gt;b : 1. Input Username &amp; Password;
 on=c;
-b-&gt;&gt;&gt;c : 2. Transfer inputs;
+b-&gt;&gt;&gt;c : 2. Transfer input;
+c-&gt;c + : 3. Validate input;
+
+tick=
+combinedFragment=alt~alt1;
 on=d;
-c-&gt;&gt;&gt;d : 3. Create new member;
-d.&gt;c : 4. Return new member;
+c : [valid]
+c-&gt;&gt;&gt;d : 4. Create new member;
+d.&gt;c : 5. Return new member;
 off=d;
-c.&gt;b : 5. Send acknowledgement;
+c.&gt;b : 6.Send acknowledgement;
 off=c;
-b.&gt;a : 6. Display register confirmation;
+b.&gt;a : 7. Display register confirmation;
+..=alt1;
+
+tick=
+on=c;
+c: [not valid]
+c.&gt;b : 4. Have user input again;
+off=c;
+b.&gt;a : 5. Display request;
 off=b;
-off=a;</panel_attributes>
+off=a;
+--
+</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>

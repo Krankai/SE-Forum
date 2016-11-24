@@ -382,7 +382,7 @@ m2=0..*</panel_attributes>
       <h>35</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-&lt;&lt;inclue&gt;&gt;
+&lt;&lt;include&gt;&gt;
 m1=*
 m2=1</panel_attributes>
     <additional_attributes>170.0;20.0;10.0;20.0</additional_attributes>

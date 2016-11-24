@@ -7,7 +7,7 @@
       <x>104</x>
       <y>0</y>
       <w>704</w>
-      <h>944</h>
+      <h>888</h>
     </coordinates>
     <panel_attributes>title=As a member / moderator / administrator, I want to post a new comment.
 title=User Story 6
@@ -33,14 +33,12 @@ c-&gt;&gt;&gt;e : 5.Create Comment object;
 e.&gt;c : 6.Return Comment object;
 off=e;
 on=f;
-c-&gt;&gt;&gt;f : 7.Request Post object;
-f.&gt;c : 8.Return Post object;
-c-&gt;&gt;&gt;f : 9.Add Comment to Post;
-f.&gt;c : 10.Return the modified Post;
+c-&gt;&gt;&gt;f : 8.Add Comment to Post;
+f.&gt;c : 9.Return the modified Post;
 off=f;
-c.&gt;b : 11.Retrieve modified Post;
+c.&gt;b : 10.Retrieve modified Post;
 off=c;
-b.&gt;a : 12.Display comment in a block;
+b.&gt;a : 11.Display comment in a block;
 off=b;
 off=a;
 </panel_attributes>

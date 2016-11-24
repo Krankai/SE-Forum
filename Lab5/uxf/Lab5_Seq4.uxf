@@ -6,8 +6,8 @@
     <coordinates>
       <x>0</x>
       <y>0</y>
-      <w>924</w>
-      <h>1071</h>
+      <w>616</w>
+      <h>1176</h>
     </coordinates>
     <panel_attributes>title=User Story 4
 obj=User~a ACTOR EXECUTION
@@ -38,16 +38,14 @@ off=d
 on=e
 c-&gt;&gt;&gt;e: 9. Create new Post object
 e.&gt;c: 10. Return new Post object
-off=e
-on=f
-c-&gt;&gt;&gt;f: 11. Request current Thread object
-f.&gt;c: 12. Return current Thread object
-off=f
-c-&gt;c +: 13. Add post to thread
-tick=
-c.&gt;b: 14. Return the created post
+off=e;
+on=e;
+c-&gt;&gt;&gt;e : 11. Add post to thread
+e.&gt;c: 12. Return successful message
+off=e;
+c.&gt;b: 13. Return the created post
 off=c
-b.&gt;a: 15. Display the created post
+b.&gt;a: 14. Display the created post
 off=b
 off=a</panel_attributes>
     <additional_attributes/>
