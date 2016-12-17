@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.2">
-  <zoom_level>8</zoom_level>
+  <zoom_level>7</zoom_level>
   <element>
     <id>UMLSequenceAllInOne</id>
     <coordinates>
-      <x>120</x>
+      <x>0</x>
       <y>0</y>
-      <w>712</w>
-      <h>1008</h>
+      <w>973</w>
+      <h>910</h>
     </coordinates>
     <panel_attributes>title=User Story 9
 obj=Admin/Moderator~a ACTOR EXECUTION
@@ -22,24 +22,32 @@ on=b;
 a-&gt;&gt;&gt;b: 1. Link to comment directory;
 b.&gt;a: 2. Display comment;
 off=b;
-
 on=b;
 a-&gt;&gt;&gt;b: 3. Send delete comment request;
 on=c;
 b-&gt;&gt;&gt;c: 4. Forward request;
+c-&gt;c +: 5. Authorize user;
+tick=
+combinedFragment=alt~alt1 a e;
+c: [authorized user]
 on=d;
-c-&gt;&gt;&gt;d: 5. Delete comment;
-d.&gt;c: 6. Send successful notification;
+c-&gt;&gt;&gt;d: 6. Delete comment;
+d.&gt;c: 7. Send successful notification;
 off=d;
 on=e;
-c-&gt;&gt;&gt;e: 7. Remove comment from current post;
-e.&gt;c: 8. Send successful notification;
+c-&gt;&gt;&gt;e: 8. Remove comment from current post;
+e.&gt;c: 9. Send successful notification;
 off=e;
-c.&gt;b: 9. Return successful notification;
+c.&gt;b: 10. Return successful notification;
+b.&gt;a: 11. Display notification;
+..=alt1;
+c: [unauthorized user]
+c.&gt;b: 6. Send error message;
 off=c;
-b.&gt;a: 10. Display notification;
+b.&gt;a: 7. Display error message;
 off=b;
-off=a;</panel_attributes>
+off=a;
+--</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
