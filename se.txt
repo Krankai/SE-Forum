@@ -1,0 +1,18 @@
+Project Plan			(Van + Bao)
+	Overview
+	Goal and Scope: included / excluded functions
+	Risk managements
+	Organization / Resource requirements
+	Product backlogs
+	Sprint backlogs
+Requirement Specification	(Luong Huy + Huy Ho?)
+	Functional / Nonfunctional requirements
+	Use case diagram
+	Use case description
+Design Document			(Thinh)
+	System architecture
+	Class diagram
+	Sequence diagrams	
+Testing document		(Thien)
+	Test Case
+
